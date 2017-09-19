@@ -1,0 +1,24 @@
+<div class="tiebreakerBox">
+
+  <h2 class="tiebreaker">
+    <form action="/tiebreaker/<%= @cowOne %>/<%= @cowTwo %>" method="post">
+      <%= @question %>
+      <br>
+      <br>
+      <input type="radio" name="answer" value="one">
+      <%= @optionOne %>
+      <input type="radio" name="answer" value="two">
+      <%= @optionTwo %>
+  </h2>
+
+      <br>
+      <br>
+      <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+      <input type="submit" style="font-family: 'Merriweather';" value="Break the Tie!"></input>
+    </form>
+    <script src="../../assets/cowtiebreaker.js"></script>
+
+  </div>
+
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Pacifico" rel="stylesheet">

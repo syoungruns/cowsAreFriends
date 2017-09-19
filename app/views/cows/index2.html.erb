@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cows Are Friends</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- ../../stylesheets/ -->
+    <link rel="stylesheet" href="../../assets/stylesheets/cows.scss">
+    <link href="../../assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/cows.scss" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Pacifico" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="font-family: 'Pacifico', cursive; font-size: 20px;">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-family: 'Pacifico', cursive; font-size: 20px;">Cows Are Friends!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#cowFacts">📈 Cow Facts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plantBased">🌱 Why Plant-Based?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cowPersonality">🐮 Cow Personality Test</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="intro-header">
+      <div class="container">
+        <div class="intro-message">
+          <h1>Cows Are Friends!</h1>
+          <h3>They Might As Well Just Be Huge Dogs</h3>
+          <hr class="intro-divider">
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="content-section-a">
+
+      <div id="cowFacts" class="container">
+        <div class="row">
+          <div class="col-lg-7 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">📈 Cool Cow Facts</h2>
+            <p class="lead" style="display: inline-block; font-family: 'Merriweather', serif;">🐮 Cows can form friendships with other cows, and are capable of holding grudges! <br>🐮 Cows can live for more than twenty years if given the chance! <br>🐮 A German study found that cows tend to face either magnetic North or South when grazing or resting, regardless of the sun's position or the wind's direction. <br>🐮 Cows can become stressed when separated from their preferred partner!</p>
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <img class="img-fluid" src="cowtongue.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <section class="content-section-b">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-7 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 id="plantBased" class="section-heading">🌱 Why Plant-Based?</h2>
+            <p class="lead" style="font-family: 'Merriweather', serif;">🌎 Livestock and their byproducts account for at least 32,000 million TONS of carbon dioxide per year. That's 51% of all worldwide greenhouse gas emissions!<br> 🌎 2,500 gallons of water are needed to produce just one pound of beef<br> 🌎 5% of water consumed in the US is by private homes. 55% of water consumed in the US is for animal agriculture.<br> 🌎 Animal agriculture is the leading cause of species extinction, ocean dead zones, water pollution, and habitat destruction.<br>🌎 82% of starving children live in countries where food is fed to animals, and the animals are eaten by western countries<br>🌻 Every day, a vegan diet saves 1,100 gallons of water, 45 pounds of grain, and 30 sq ft of forested land. And the lives of animal friends, of course!</p>
+          </div>
+          <div class="col-lg-5 ml-auto order-lg-1">
+            <img class="img-fluid" src="cowbaby.jpeg" style="margin-top: 60px;" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+
+            <!-- <a href="/resultAll" data-method="post">See all possible results</a>
+            <br>
+            <a href="/tiebreaker" data-method="post">Tie Breaker Page</a> -->
+            <h2 id="cowPersonality" class="section-heading">Take the Cow Personality Test!</h2>
+            <p class="lead" style="font-family: 'Merriweather', serif;">
+              <form method="post" action="/result">
+                <legend class="legendary">Which color do you prefer?</legend>
+                <input type="radio" name="color" value="yellow">Yellow!<br>
+                <input type="radio" name="color" value="green">Green!<br>
+                <input type="radio" name="color" value="pink">Pink!<br>
+              <br>
+                <legend class="legendary">What's your favorite animal?</legend>
+                <input type="radio" name="animal" value="cows">Cows!<br>
+                <input type="radio" name="animal" value="dogs">Dogs!<br>
+                <input type="radio" name="animal" value="lizards">Lizards!<br>
+              <br>
+                <legend class="legendary">How does meeting new people make you feel?</legend>
+                <input type="radio" name="meeting" value="excited">Excited!<br>
+                <input type="radio" name="meeting" value="nervous">Nervous!<br>
+                <input type="radio" name="meeting" value="homebody">I never leave my house!<br>
+              <br>
+                <legend class="legendary">Which food would you eat if you were on deathrow?</legend>
+                <input type="radio" name="death" value="pizza">Pizza!<br>
+                <input type="radio" name="death" value="sushi">Sushi!<br>
+                <input type="radio" name="death" value="milkshake">Chocolate milkshake!<br>
+              <br>
+                <legend class="legendary">What's your style when it comes to vacations?</legend>
+                <input type="radio" name="vacations" value="no">I don't have time off for vacations!<br>
+                <input type="radio" name="vacations" value="light">I fly by the seat of my pants!<br>
+                <input type="radio" name="vacations" value="everything">I plan out everything for my vacations!<br>
+              <br>
+                <legend class="legendary">What is your drink choice?</legend>
+                <input type="radio" name="alcohol" value="tequila">Tequila!<br>
+                <input type="radio" name="alcohol" value="whiskey">Whiskey!<br>
+                <input type="radio" name="alcohol" value="beer">Beer!<br>
+              <br>
+                <legend class="legendary">How long have you known your best friend?</legend>
+                <input type="radio" name="friend" value="one">One to three years!<br>
+                <input type="radio" name="friend" value="five">Five to ten years!<br>
+                <input type="radio" name="friend" value="whole">Our whole lives!<br>
+              <br>
+                <legend class="legendary">Favorite spot to shop?</legend>
+                <input type="radio" name="shop" value="target">Target!<br>
+                <input type="radio" name="shop" value="joes">Trader Joes!<br>
+                <input type="radio" name="shop" value="wfoods">Whole Foods!<br>
+              <br>
+                <legend class="legendary">Who would you meet if you could?</legend>
+                <input type="radio" name="celebs" value="amy">Amy Poehler!<br>
+                <input type="radio" name="celebs" value="michelle">Michelle Obama!<br>
+                <input type="radio" name="celebs" value="prince">Prince!<br>
+              <br>
+                <legend class="legendary">Choose your karaoke song!</legend>
+                <input type="radio" name="song" value="bruce">Glory Days, Bruce Springsteen!<br>
+                <input type="radio" name="song" value="kesha">Your Love is My Drug, Ke$ha!<br>
+                <input type="radio" name="song" value="journey">Don't Stop Believing, Journey!<br>
+              <br>
+              <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+              <div class="flashyError">
+                <% if flash[:errors] %>
+                    <h1><%= flash[:errors] %></h1>
+                  <% end %>
+              </div>
+                <input type="submit" style="font-family: 'Pacifico';" value="Moooo! 🐮"></input>
+              </form>
+            </p>
+          </div>
+          <div class="col-lg-6 mr-auto ">
+            <img class="img-fluid" src="cowpasture.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-a -->
+
+    <!-- <aside class="banner">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+            <h2>Connect to Start Bootstrap:</h2>
+          </div>
+          <div class="col-lg-6 my-auto">
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn btn-secondary btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  <span class="network-name">Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <! /.container -->
+
+    <!-- </aside> -->
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="www.sarahyoungruns.com">About</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="www.gentlebarn.org">Learn More!</a>
+          </li>
+          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="list-inline-item">
+            <a href="www.sarahyoungruns.com">Contact</a>
+          </li>
+        </ul>
+
+        <p class="copyright text-muted small">Copyright &copy; Sarah Young 2017. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../assets/jquery/jquery.min.js"></script>
+    <script src="../../assets/popper/popper.min.js"></script>
+    <script src="../../assets/bootstrap/css/bootstrap.min.css"></script>
+    <script src="../../assets/cows.js"></script>
+
+  </body>
+
+</html>
